@@ -19,7 +19,7 @@ function Home() {
         />
 
       <Product 
-        id = {123456}
+        id = {173457}
         title = "Noise Vivid Call Bluetooth Calling Smartwatch with Metallic dial"
         price = {800}
         rating = {3}
@@ -27,7 +27,7 @@ function Home() {
         />  
 
         <Product 
-        id = {123456}
+        id = {153426}
         title = "American Tourister 32 Ltrs Black Casual Backpack "
         price = {1890}
         rating = {4}
@@ -37,7 +37,7 @@ function Home() {
 
     <div className='home-row'>
       <Product 
-        id = {123456}
+        id = {122646}
         title = "Fender CD 60 Dread V3 DS 6 String Acoustic Guitar"
         price = {8799}
         rating = {4}
@@ -45,7 +45,7 @@ function Home() {
         />
 
       <Product 
-        id = {123456}
+        id = {178456}
         title = "Apple AirPods Pro (2nd Generation)"
         price = {2999}
         rating = {5}
@@ -53,7 +53,7 @@ function Home() {
         />  
 
         <Product 
-        id = {123456}
+        id = {120026}
         title = "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)"
         price = {10900}
         rating = {4}
@@ -63,7 +63,7 @@ function Home() {
 
     <div className='home-row'>
       <Product 
-        id = {123456}
+        id = {124656}
         title = "Samsung 108 cm (43 inches) Wondertainment Series Full HD Smart LED TV UA43TE50FAKXXL (Black-Hair Line)"
         price = {28900}
         rating = {4}

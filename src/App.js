@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Login from './Pages/Login';
-import Checkout from './Pages/Checkout';
+import Checkout from "./Pages/Checkout";
 import Header from './Header';
 
 function App() {
