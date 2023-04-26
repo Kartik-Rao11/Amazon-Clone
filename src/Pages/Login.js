@@ -3,10 +3,15 @@ import {Link, useNavigate} from 'react-router-dom';
 import { auth } from '../Firebase';
 import  './Login.css';
 
+
+
 function Login() {
   const history = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+ 
+
+
 
   const signIn = e => {
       e.preventDefault();
@@ -15,6 +20,7 @@ function Login() {
           .signInWithEmailAndPassword(email, password)
           .then(auth => {
               history('/')
+              
           })
           .catch(error => alert(error.message))
   }
@@ -27,7 +33,7 @@ function Login() {
           .then((auth) => {
               
               if (auth) {
-                  history.push('/')
+                  history('/')
               }
           })
           .catch(error => alert(error.message))
